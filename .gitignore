@@ -1,0 +1,9 @@
+data.db
+.idea\*
+..\.idea\*
+modules\.idea\*
+resources\.idea\*
+__pycache__/
+*.pyc
+
+
