@@ -9,12 +9,12 @@ class UserRegister(Resource):
     parser.add_argument("username",
                         type=str,
                         required=True,
-                        help="This field can not be left blank!"
+                        help="This field can not be blank!"
                         )
     parser.add_argument("password",
                         type=str,
                         required=True,
-                        help="This field can not be left blank!"
+                        help="This field can not be blank!"
                         )
 
     def post(self):
